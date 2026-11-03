@@ -11,6 +11,7 @@ for(let i=0;i<prices.length;i++){
 	let table=document.createElement("table");
 
 	let newRow=document.createElement("tr");
+	newRow.id="totalRow"
 	let newCell=document.createElement("td")
 	newCell.innerText=total;
 	
